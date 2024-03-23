@@ -1,1 +1,1 @@
-# InteliBlockchain-react
+# blockchain-react

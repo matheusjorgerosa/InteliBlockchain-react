@@ -33,6 +33,16 @@ function App() {
           Para receber sua NFT você precisa ter participado
           do evento e ter uma carteira na rede Sepolia.
         </p>
+        <p className='flex flex-row'>
+        Ainda não tem uma carteira? Acesse o link e crie a sua já: {"  "}
+        <a
+          target='_blank'
+          href='https://metamask.io/download/'
+          className='flex text-blue-500 hover:underline'
+        >
+              Clique aqui.
+        </a> 
+        </p>
         
         <form className="flex flex-col mt-8">
           <Input description="Esse nome será gravado no NFT para provar sua presença"
